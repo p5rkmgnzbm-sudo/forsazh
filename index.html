@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJEJV6Z6ME"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JJEJV6Z6ME');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Перекупщики: Форсаж по-закарпатські | Фан-озвучка</title>
+  <style>
+    :root {
+      --primary-color: #ff003c;
+      --bg-color: #0d0d11;
+      --card-bg: #16161e;
+      --text-color: #ffffff;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Шапка у стилі Форсажу */
+    header {
+      background: linear-gradient(180deg, rgba(255,0,60,0.25) 0%, rgba(13,13,17,1) 100%);
+      padding: 35px 20px;
+      text-align: center;
+      border-bottom: 2px solid var(--primary-color);
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 4px 12px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 10px;
+      box-shadow: 0 0 10px rgba(255, 0, 60, 0.5);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 44px;
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 0 0 15px rgba(255, 0, 60, 0.7);
+    }
+
+    .subtitle {
+      color: #aaa;
+      font-size: 16px;
+      margin-top: 8px;
+      letter-spacing: 1px;
+    }
+
+    /* Основна сітка */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 25px;
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    @media (max-width: 850px) {
+      .main-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Відеоплеєр */
+    .player-section {
+      background-color: var(--card-bg);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      border: 1px solid #282836;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 8px;
+      outline: none;
+      background-color: #000;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .movie-title {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 15px 0 5px 0;
+      color: #fff;
+    }
+
+    .movie-meta {
+      display: flex;
+      gap: 15px;
+      color: var(--primary-color);
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .movie-desc {
+      color: #aaa;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* Резервна кнопка для локального файлу */
+    .custom-file-box {
+      margin-top: 20px;
+      padding: 15px;
+      background: rgba(255, 0, 60, 0.05);
+      border: 1px dashed var(--primary-color);
+      border-radius: 8px;
+    }
+
+    .custom-file-box label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    /* Блок для постера */
+    .poster-section {
+      background-color: var(--card-bg);
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid #282836;
+      text-align: center;
+    }
+
+    .poster-img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+      border: 1px solid #333;
+      object-fit: cover;
+    }
+
+    .poster-info {
+      margin-top: 15px;
+      text-align: left;
+    }
+
+    .poster-info h3 {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      color: #fff;
+      font-style: italic;
+    }
+
+    .poster-info p {
+      font-size: 13px;
+      color: #888;
+      line-height: 1.5;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="badge">ФАН-ОЗВУЧКА // ФОРСАЖ</div>
+    <h1>ПЕРЕКУПЩИКИ</h1>
+    <div class="subtitle">Форсаж по-закарпатські</div>
+  </header>
+
+  <div class="main-grid">
+    
+    <!-- Ліва колонка: Плеєр -->
+    <div class="player-section">
+      <video id="mainPlayer" controls poster="8637B0BE-9CB8-4152-A6F2-95D30045A3ED.PNG">
+        <!-- Посилання на твій файл з Google Диска -->
+        <source id="videoSource" src="https://drive.google.com/uc?export=download&id=1_QnMBH122HgTZbvFHoBtFv02mEBlAngV" type="video/mp4">
+        Ваш браузер не підтримує відтворення відео.
+      </video>
+
+      <div class="movie-title" id="titleDisplay">Перекупщики (Форсаж по-закарпатські)</div>
+      <div class="movie-meta">
+        <span>Авторський дубляж</span> • <span>Закарпатський діалект</span> • <span>Full HD</span>
+      </div>
+      <div class="movie-desc" id="descDisplay">
+        Фільм завантажується безпосередньо з хмарного сховища Google Диск. Натисніть Play для перегляду.
+      </div>
+
+      <!-- Запасний варіант: якщо захочеш протестувати інший локальний файл з комп'ютера -->
+      <div class="custom-file-box">
+        <label for="fileInput">🚘 Або обрати інший файл з комп'ютера:</label>
+        <input type="file" id="fileInput" accept="video/mp4, video/mkv, video/webm">
+      </div>
+    </div>
+
+    <!-- Права колонка: Постер фільму -->
+    <div class="poster-section">
+      <img src="8637B0BE-9CB8-4152-A6F2-95D30045A3ED.PNG" alt="Постер Перекупщики" class="poster-img" id="posterImg">
+      
+      <div class="poster-info">
+        <h3>Про проєкт</h3>
+        <p>Неофіційна авторська фан-озвучка фільму «Форсаж». Зведена мультитрекова аудіодоріжка, кастомний дубляж персонажів та колоритна діалектальна адаптація.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const mainPlayer = document.getElementById('mainPlayer');
+    const titleDisplay = document.getElementById('titleDisplay');
+    const descDisplay = document.getElementById('descDisplay');
+    const fileInput = document.getElementById('fileInput');
+
+    // Автоматичне підключення відео з Google Диска при завантаженні сторінки
+    window.addEventListener('DOMContentLoaded', () => {
+      const googleDriveURL = "https://drive.google.com/uc?export=download&id=1_QnMBH122HgTZbvFHoBtFv02mEBlAngV";
+      document.getElementById('videoSource').src = googleDriveURL;
+      mainPlayer.load();
+    });
+
+    // Можливість перемкнути на свій локальний файл, якщо потрібно
+    fileInput.addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const fileURL = URL.createObjectURL(file);
+        mainPlayer.src = fileURL;
+        titleDisplay.textContent = "Перекупщики: " + file.name;
+        descDisplay.textContent = `Локальний перегляд файла (${(file.size / (1024 * 1024)).toFixed(1)} МБ).`;
+        mainPlayer.play();
+      }
+    });
+
+    // Фіксація натискання на плеєр у Google Analytics
+    mainPlayer.addEventListener('play', function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'video_started', {
+          'event_category': 'Player',
+          'event_label': titleDisplay.textContent
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
